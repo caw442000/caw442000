@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="particles-js">
+      <div id="typewriter"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+      particlesJS.load("particles-js", "particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+    <script type="text/javascript">
+      const instance = new Typewriter("#typewriter", {
+        loop: true,
+      });
+      instance
+        .typeString("Hello World!")
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString("I am Cedric Winbush.")
+        .pauseFor(1000)
+        .deleteChars(15)
+        .typeString("a <br>Full Stack Developer.")
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString("A few tools in my toolbelt<br>React.js<br>Node.js.")
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString("Check out my work at<br>github.com/your-username")
+        .pauseFor(1000)
+        .deleteAll()
+        .start();
+    </script>
+  </body>
+</html>
