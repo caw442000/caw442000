@@ -17,7 +17,7 @@ const Cedric = {
     code: ["Javascript", "HTML", "CSS", "Python"],
     tools: ["React", "Redux", "Node", "Styled-Components", "Material-UI],
     architectures: ["Single page applications"],
-    challenge: "I am doing 1000 days of code"
+    challenge: "I am doing 100 days of code"
 }
 ```
 
