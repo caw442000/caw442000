@@ -16,7 +16,7 @@ const Cedric = {
     pronouns: "he" | "him",
     code: ["Javascript", "HTML", "CSS", "Python"],
     tools: ["React", "Redux", "Node", "Styled-Components", "Material-UI],
-    architectures: ["Single page applications"],
+    architectures: ["Single page applications", "AWS"],
     challenge: "I am doing 100 days of code"
 }
 ```
